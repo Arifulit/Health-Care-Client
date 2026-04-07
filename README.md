@@ -1,5 +1,11 @@
 # PH Health Care
 
+![Next.js](https://img.shields.io/badge/Next.js-16-black)
+![React](https://img.shields.io/badge/React-19-149ECA)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4)
+![ESLint](https://img.shields.io/badge/ESLint-9-4B32C3)
+
 A modern healthcare management frontend built with Next.js, TypeScript, and a modular component architecture.
 
 This project focuses on building a scalable and maintainable patient-doctor-admin workflow with dashboard experiences, authentication flows, AI-related service integration hooks, and role-based module organization.
@@ -14,8 +20,10 @@ This project focuses on building a scalable and maintainable patient-doctor-admi
 6. [Available Scripts](#available-scripts)
 7. [Environment Variables](#environment-variables)
 8. [Code Quality](#code-quality)
-9. [Deployment](#deployment)
-10. [Roadmap and Tasks](#roadmap-and-tasks)
+9. [Screenshots](#screenshots)
+10. [API Documentation](#api-documentation)
+11. [Deployment](#deployment)
+12. [Roadmap and Tasks](#roadmap-and-tasks)
 
 ## Project Overview
 
@@ -108,6 +116,46 @@ npm run build
 ```
 
 This helps ensure linting, typing, and production compilation stay healthy.
+
+## Screenshots
+
+Add product screenshots to make the repository presentation stronger.
+
+Recommended screenshot files:
+
+- public/screenshots/home-page.png
+- public/screenshots/dashboard-page.png
+- public/screenshots/doctor-list-page.png
+
+Example markdown snippet:
+
+```md
+![Home Page](public/screenshots/home-page.png)
+![Dashboard](public/screenshots/dashboard-page.png)
+![Doctor List](public/screenshots/doctor-list-page.png)
+```
+
+## API Documentation
+
+This frontend consumes domain-based service modules from:
+
+- src/services/auth
+- src/services/admin
+- src/services/doctor
+- src/services/patient
+- src/services/payment
+- src/services/ai
+
+Current API documentation status:
+
+- Planned task reference: Tasks/17. TASK_15_API_DOCUMENTATION.md (inside the Tasks directory)
+- Recommended docs format: OpenAPI (Swagger) + Postman Collection
+- Suggested sections: Auth, User Roles, Doctors, Patients, Appointments, Payments, AI endpoints
+
+If backend API docs are published, include links here:
+
+- Swagger UI: https://your-api-domain.com/docs
+- Postman Collection: https://www.postman.com/your-workspace/your-collection
 
 ## Deployment
 
